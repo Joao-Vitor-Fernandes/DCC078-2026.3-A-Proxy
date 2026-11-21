@@ -20,8 +20,7 @@ public class Paciente implements IPaciente {
         this.medicamento = objeto.medicamento;
     }
 
-    public Paciente(Integer numeroProntuario, String nome, String convenio,
-                    String diagnostico, String medicamento) {
+    public Paciente(Integer numeroProntuario, String nome, String convenio, String diagnostico, String medicamento) {
         this.numeroProntuario = numeroProntuario;
         this.nome = nome;
         this.convenio = convenio;
